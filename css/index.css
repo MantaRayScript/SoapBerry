@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 320px;
+  background-color: #638e4c;
+}
+
+header {
+  position: relative;
+}
+header .bg-image {
+  height: 160px;
+  width: auto;
+  background-image: url("../graphics/Mobile_friendly/main-image-mobile.jpg");
+  background-size: 320px auto;
+  background-repeat: no-repeat;
+  background-position: 0px -35px;
+}
+header .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 160px;
+  width: 320px;
+  background-color: rgba(30, 32, 18, 0.2);
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  box-shadow: 0 10px 15px 5px rgba(30, 32, 18, 0.4);
+  background-color: #f9f9f3;
+}
+nav div img {
+  width: 150px;
+}
+nav .menu-list {
+  display: none;
+  position: absolute;
+  top: 7vh;
+  right: 4vw;
+  padding: 4px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #f9f9f3;
+}
+nav .menu-list ul li {
+  padding: 5px 2px;
+  border-bottom: 1px solid rgba(30, 32, 18, 0.4);
+  list-style: none;
+}
+nav .menu-list ul li a {
+  color: #1e2012;
+  font-family: "Martian Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main {
+  width: 100%;
+  margin: 20px auto 0;
+}
+main .our-products {
+  background-color: #f9f9f3;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  background-color: #1e2012;
+  color: #f9f9f3;
+}
+footer .soapberry-footer-img {
+  height: 30px;
+  width: auto;
+  background-image: url("../graphics/Mobile_friendly/logotype-white-mobile.png") no-repeat 0 0;
+}/*# sourceMappingURL=index.css.map */
