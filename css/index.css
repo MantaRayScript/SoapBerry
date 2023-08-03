@@ -74,15 +74,20 @@ main .our-products {
 }
 
 footer {
+  padding: 5px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  height: 30px;
+  height: 60px;
   background-color: #1e2012;
   color: #f9f9f3;
 }
 footer .soapberry-footer-img {
   height: 30px;
-  width: auto;
-  background-image: url("../img/imgMobile/logotype-white-mobile.png") no-repeat 0 0;
+  width: 100%;
+  background-image: url("../img/imgMobile/logotype-white-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }/*# sourceMappingURL=index.css.map */
