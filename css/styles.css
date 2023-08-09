@@ -69,8 +69,47 @@ main {
   width: 100%;
   margin: 20px auto 0;
 }
+main .abt-us .abt-us-img-ingredietns {
+  background-image: url("../img/imgMobile/natural-ingredients-mobile.png");
+}
+main .abt-us .abt-us-img-packaging {
+  background-image: url("../img/imgMobile/package-mobile.png");
+}
+main .abt-us .abt-us-img-parcels {
+  background-image: url("../img/imgMobile/parcel-mobile.png");
+}
+main .abt-us .abt-us-img-energy {
+  background-image: url("../img/imgMobile/renewable-energy-mobile.png");
+}
+main .abt-us .abt-us-img-co2 {
+  background-image: url("../img/imgMobile/co2-mobile.png");
+}
 main .our-products {
   background-color: #f9f9f3;
+}
+main .our-products .img-product-bath-balls {
+  background-image: url("../img/imgMobile/bath-balls-mobile.png");
+}
+main .our-products .img-product-candles {
+  background-image: url("../img/imgMobile/candles-mobile.png");
+}
+main .our-products .img-product-face-gel {
+  background-image: url("../img/imgMobile/face-cleaning-mobile.png");
+}
+main .our-products .img-product-face-cream {
+  background-image: url("../img/imgMobile/face-cream-mobile.png");
+}
+main .our-products .img-product-face-masks {
+  background-image: url("../img/imgMobile/face-mask-mobile.png");
+}
+main .our-products .img-product-lip-care {
+  background-image: url("../img/imgMobile/lip-care-mobile.png");
+}
+main .our-products .img-product-soaps {
+  background-image: url("../img/imgMobile/soap-mobile.png");
+}
+main .our-products .img-product-sun-blocker {
+  background-image: url("../img/imgMobile/sunblock-mobile.png");
 }
 
 footer {

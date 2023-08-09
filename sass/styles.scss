@@ -82,9 +82,53 @@ nav {
 main {
 	width: 100%;
 	margin: 20px auto 0;
+	.abt-us {
+		.abt-us-img-ingredietns {
+			background-image: images.$ingredientsMobile;
+		}
+		.abt-us-img-packaging {
+			background-image: images.$packagingMobile;
+		}
+		.abt-us-img-parcels {
+			background-image: images.$parcelsMobile;
+		}
+		.abt-us-img-energy {
+			background-image: images.$energyMobile;
+		}
+		.abt-us-img-co2 {
+			background-image: images.$coMobile;
+		}
+	}
 
 	.our-products {
 		background-color: colors.$nearly-white;
+		.img-product-bath-balls {
+			background-image: images.$bathBallMobile;
+		}
+		.img-product-candles {
+			background-image: images.$candlesMobile;
+		}
+		.img-product-face-gel {
+			background-image: images.$faceGelMobile;
+		}
+		.img-product-face-cream {
+			background-image: images.$faceCreamMobile;
+		}
+		.img-product-face-masks {
+			background-image: images.$faceMaskMobile;
+		}
+		.img-product-lip-care {
+			background-image: images.$lipCareMobile;
+		}
+		// .img-product-makeup {
+		// background-image:
+		// }
+		.img-product-soaps {
+			background-image: images.$soapsMobile;
+		}
+		.img-product-sun-blocker {
+			background-image: images.$sunBlockerMobile;
+		}
 	}
 }
 
