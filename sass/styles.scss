@@ -1,5 +1,6 @@
 @use "colors" as colors;
-@use 'fonts' as fonts;
+@use "fonts" as fonts;
+@use "images" as images;
 
 * {
 	box-sizing: border-box;
@@ -8,102 +9,102 @@
 }
 
 body {
-    width: 320px;
-    background-color: colors.$ultra-green;
+	width: 320px;
+	background-color: colors.$ultra-green;
 }
 
 // <----- HEADER ----->
 
 header {
-    position: relative;
+	position: relative;
 	.bg-image {
-        height: 160px;
-        width: auto;
-		background-image: url('../img/imgMobile/main-image-mobile.jpg');
-        background-size: 320px auto;
-        background-repeat:no-repeat;
-        background-position: 0px -35px;
+		height: 160px;
+		width: auto;
+		background-image: url("../img/imgMobile/main-image-mobile.jpg");
+		background-size: 320px auto;
+		background-repeat: no-repeat;
+		background-position: 0px -35px;
 	}
-    .bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        height: 160px;
-        width: 320px;
-        background-color: rgba(colors.$dark-green, $alpha: 0.2);
-    }
+	.bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		height: 160px;
+		width: 320px;
+		background-color: rgba(colors.$dark-green, $alpha: 0.2);
+	}
 }
 
 // <----- NAVIGATION ----->
 
 nav {
-    position: relative;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    height: 40px;
-    box-shadow: 0 10px 15px 5px rgba(colors.$dark-green, $alpha: .4);
-    background-color: colors.$nearly-white;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 40px;
+	box-shadow: 0 10px 15px 5px rgba(colors.$dark-green, $alpha: 0.4);
+	background-color: colors.$nearly-white;
 
-    div img {
-        width: 150px;
-    }
+	div img {
+		width: 150px;
+	}
 
-    .menu-list{ 
-        display: none;
-        position: absolute;
-        top: 7vh;
-        right: 4vw;
-        padding: 4px;
-        border-radius: 0px 0px 10px 10px;
-        background-color: colors.$nearly-white;
+	.menu-list {
+		display: none;
+		position: absolute;
+		top: 7vh;
+		right: 4vw;
+		padding: 4px;
+		border-radius: 0px 0px 10px 10px;
+		background-color: colors.$nearly-white;
 
-        ul li {
-            padding: 5px 2px;
-            border-bottom: 1px solid rgba(colors.$dark-green, $alpha: .4);
-            list-style: none;
+		ul li {
+			padding: 5px 2px;
+			border-bottom: 1px solid rgba(colors.$dark-green, $alpha: 0.4);
+			list-style: none;
 
-            a {
-                color: colors.$dark-green;
-                font-family: fonts.$martian;
-                font-size: 11px;
-                letter-spacing: 0.8px;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-        }
-    }
+			a {
+				color: colors.$dark-green;
+				font-family: fonts.$martian;
+				font-size: 11px;
+				letter-spacing: 0.8px;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+		}
+	}
 }
 
 // <----- MAIN SECTION -----.
 
 main {
-    width: 100%;
-    margin: 20px auto 0;
+	width: 100%;
+	margin: 20px auto 0;
 
-    .our-products {
-        background-color: colors.$nearly-white;
-    }
+	.our-products {
+		background-color: colors.$nearly-white;
+	}
 }
 
 // <----- FOOTER ----->
 
 footer {
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    background-color: colors.$dark-green;
-    color: colors.$nearly-white;
-    .soapberry-footer-img {
-        height: 30px;
-        width: 100%;
-        background-image: url("../img/imgMobile/logotype-white-mobile.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-    }
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: colors.$dark-green;
+	color: colors.$nearly-white;
+	.soapberry-footer-img {
+		height: 30px;
+		width: 100%;
+		background-image: url("../img/imgMobile/logotype-white-mobile.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+	}
 }
