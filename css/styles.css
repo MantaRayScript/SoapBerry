@@ -125,6 +125,33 @@ main .our-products .img-product-soaps {
 main .our-products .img-product-sun-blocker {
   background-image: url("../img/imgMobile/sunblock-mobile.png");
 }
+main .contact {
+  margin-top: 10px;
+}
+main .contact .home-address {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #f9f9f3;
+  text-transform: uppercase;
+  text-align: center;
+}
+main .contact .home-address h3 {
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+main .contact .social-media {
+  margin: 20px 10px;
+}
+main .contact .social-media .SM-list {
+  display: flex;
+  justify-content: space-around;
+}
+main .contact .social-media .SM-list li {
+  font-size: 1.8rem;
+  color: #f9f9f3;
+  text-decoration: none;
+  list-style: none;
+}
 
 footer {
   padding: 5px;

@@ -86,7 +86,7 @@ main {
 		width: 90%;
 		margin: auto;
 		.abt-us-box {
-			.box-img{
+			.box-img {
 				width: 100%;
 				height: 250px;
 				background-position: center;
@@ -142,6 +142,33 @@ main {
 		}
 		.img-product-sun-blocker {
 			background-image: images.$sunBlockerMobile;
+		}
+	}
+	.contact {
+		margin-top: 10px;
+		.home-address {
+			h3 {
+				margin-bottom: 5px;
+				text-decoration: underline;
+			}
+			font-family: fonts.$open-sans;
+			font-weight: bold;
+			color: colors.$nearly-white;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		.social-media {
+			margin: 20px 10px;
+			.SM-list {
+				display: flex;
+				justify-content: space-around;
+				li {
+					font-size: 1.8rem;
+					color: colors.$nearly-white;
+					text-decoration: none;
+					list-style: none;
+				}
+			}
 		}
 	}
 }
