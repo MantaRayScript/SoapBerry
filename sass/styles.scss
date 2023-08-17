@@ -13,6 +13,16 @@ body {
 	background-color: colors.$ultra-green;
 }
 
+@mixin box {
+	width: 100%;
+	height: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid 2px colors.$light-green;
+	box-shadow: 0px 0px 10px colors.$dark-green;
+}
+
 // <----- HEADER ----->
 
 header {
@@ -87,14 +97,8 @@ main {
 		margin: auto;
 		.abt-us-box {
 			.box-img {
-				width: 100%;
-				height: 250px;
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: cover;
-				border: solid 2px colors.$light-green;
+				@include box;
 				border-radius: 100px 0px 100px 0px;
-				box-shadow: 0px 0px 10px colors.$dark-green;
 			}
 			.abt-us-img-ingredients {
 				background-image: images.$ingredientsMobile;
@@ -115,6 +119,8 @@ main {
 	}
 
 	.our-products {
+		// @include box;
+		// border-radius: 0px 100px 0px 100px;
 		background-color: colors.$nearly-white;
 		.img-product-bath-balls {
 			background-image: images.$bathBallMobile;
@@ -135,7 +141,7 @@ main {
 			background-image: images.$lipCareMobile;
 		}
 		.img-product-makeup {
-		background-image: images.$makeUpMobile;
+			background-image: images.$makeUpMobile;
 		}
 		.img-product-soaps {
 			background-image: images.$soapsMobile;

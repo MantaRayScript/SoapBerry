@@ -80,8 +80,8 @@ main .abt-us .abt-us-box .box-img {
   background-repeat: no-repeat;
   background-size: cover;
   border: solid 2px #4c6938;
-  border-radius: 100px 0px 100px 0px;
   box-shadow: 0px 0px 10px #1e2012;
+  border-radius: 100px 0px 100px 0px;
 }
 main .abt-us .abt-us-box .abt-us-img-ingredients {
   background-image: url("../img/imgMobile/natural-ingredients-mobile.png");
