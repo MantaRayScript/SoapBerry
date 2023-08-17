@@ -14,6 +14,7 @@ body {
 }
 
 @mixin box {
+	margin-bottom: 15px;
 	width: 100%;
 	height: 250px;
 	background-position: center;
@@ -97,8 +98,26 @@ main {
 		margin: auto;
 		.abt-us-box {
 			.box-img {
+				position: relative;
 				@include box;
 				border-radius: 100px 0px 100px 0px;
+				.abt-us-shadow {
+					@include box;
+					border-radius: 100px 0px 100px 0px;
+					background-color: rgba(colors.$dark-green, $alpha: 0.4);
+				}
+				.abt-us-visible-header {
+					width: 90%;
+					position: absolute;
+					top: 40%;
+					left: 50%;
+					transform: translate(-50%);
+					text-align: center;
+					font-size: 1.35rem;
+					color: colors.$nearly-white;
+					text-shadow: 0 0 5px black;
+					z-index: 10;
+				}
 			}
 			.abt-us-img-ingredients {
 				background-image: images.$ingredientsMobile;
@@ -114,6 +133,10 @@ main {
 			}
 			.abt-us-img-co2 {
 				background-image: images.$coMobile;
+			}
+			.hidden {
+				display: none;
+				padding-bottom: 15px;
 			}
 		}
 	}
