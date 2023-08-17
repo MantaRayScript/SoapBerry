@@ -119,6 +119,9 @@ main .our-products .img-product-face-masks {
 main .our-products .img-product-lip-care {
   background-image: url("../img/imgMobile/lip-care-mobile.png");
 }
+main .our-products .img-product-makeup {
+  background-image: url("../img/imgMobile/makeup-mobile.png");
+}
 main .our-products .img-product-soaps {
   background-image: url("../img/imgMobile/soap-mobile.png");
 }
