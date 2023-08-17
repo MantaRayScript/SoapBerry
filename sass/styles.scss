@@ -118,6 +118,35 @@ main {
 					text-shadow: 0 0 5px black;
 					z-index: 10;
 				}
+				.circle-animation {
+					position: absolute;
+					bottom: 21%;
+					left: 47%;
+					transform: translate(-50%);
+					height: 10px;
+					width: 10px;
+					border: solid 1px white;
+					border-radius: 50%;
+					animation: scaleOut 2s infinite cubic-bezier(0.25, 0.46, 0.45, 0.94);
+				}
+				@keyframes scaleOut {
+					from {
+						transform: scale(.5, .5);
+						opacity: 1;
+					}
+					to {
+						transform: scale(2.5, 2.5);
+						opacity: 0;
+					}
+				}
+				.fa-hand-pointer {
+					position: absolute;
+					bottom: 10%;
+					left: 50%;
+					transform: translate(-50%);
+					font-size: 2rem;
+					color: rgba(colors.$nearly-white, $alpha: 0.6);
+				}
 			}
 			.abt-us-img-ingredients {
 				background-image: images.$ingredientsMobile;
