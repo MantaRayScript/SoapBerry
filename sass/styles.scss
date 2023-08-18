@@ -131,7 +131,7 @@ main {
 				}
 				@keyframes scaleOut {
 					from {
-						transform: scale(.5, .5);
+						transform: scale(0.5, 0.5);
 						opacity: 1;
 					}
 					to {
@@ -171,9 +171,21 @@ main {
 	}
 
 	.our-products {
-		// @include box;
-		// border-radius: 0px 100px 0px 100px;
+		width: 90%;
+		margin: auto;
 		background-color: colors.$nearly-white;
+		.products-box {
+			.box-img {
+				position: relative;
+				@include box;
+				border-radius: 0px 100px 0px 100px;
+				.products-shadow {
+					@include box;
+					border-radius: 100px 0px 100px 0px;
+					background-color: rgba(colors.$dark-green, $alpha: 0.4);
+				}
+			}
+		}
 		.img-product-bath-balls {
 			background-image: images.$bathBallMobile;
 		}
