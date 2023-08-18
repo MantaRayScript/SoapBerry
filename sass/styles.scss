@@ -94,9 +94,9 @@ main {
 	width: 100%;
 	margin: 20px auto 0;
 	.abt-us {
-		width: 90%;
-		margin: auto;
 		.abt-us-box {
+			width: 90%;
+			margin: auto;
 			.box-img {
 				position: relative;
 				@include box;
@@ -171,47 +171,51 @@ main {
 	}
 
 	.our-products {
-		width: 90%;
-		margin: auto;
 		background-color: colors.$nearly-white;
 		.products-box {
+			width: 90%;
+			margin: auto;
 			.box-img {
 				position: relative;
 				@include box;
 				border-radius: 0px 100px 0px 100px;
+			
 				.products-shadow {
 					@include box;
-					border-radius: 100px 0px 100px 0px;
+					border-radius: 0px 100px 0px 100px;
 					background-color: rgba(colors.$dark-green, $alpha: 0.4);
 				}
 			}
-		}
-		.img-product-bath-balls {
-			background-image: images.$bathBallMobile;
-		}
-		.img-product-candles {
-			background-image: images.$candlesMobile;
-		}
-		.img-product-face-gel {
-			background-image: images.$faceGelMobile;
-		}
-		.img-product-face-cream {
-			background-image: images.$faceCreamMobile;
-		}
-		.img-product-face-masks {
-			background-image: images.$faceMaskMobile;
-		}
-		.img-product-lip-care {
-			background-image: images.$lipCareMobile;
-		}
-		.img-product-makeup {
-			background-image: images.$makeUpMobile;
-		}
-		.img-product-soaps {
-			background-image: images.$soapsMobile;
-		}
-		.img-product-sun-blocker {
-			background-image: images.$sunBlockerMobile;
+			.img-product-bath-balls {
+				background-image: images.$bathBallMobile;
+			}
+			.img-product-candles {
+				background-image: images.$candlesMobile;
+			}
+			.img-product-face-cleaner {
+				background-image: images.$faceCleanerMobile
+			}
+			.img-product-face-gel {
+				background-image: images.$faceGelMobile;
+			}
+			.img-product-face-cream {
+				background-image: images.$faceCreamMobile;
+			}
+			.img-product-face-masks {
+				background-image: images.$faceMaskMobile;
+			}
+			.img-product-lip-care {
+				background-image: images.$lipCareMobile;
+			}
+			.img-product-makeup {
+				background-image: images.$makeUpMobile;
+			}
+			.img-product-soaps {
+				background-image: images.$soapsMobile;
+			}
+			.img-product-sun-blocker {
+				background-image: images.$sunBlockerMobile;
+			}
 		}
 	}
 	.contact {

@@ -69,7 +69,7 @@ main {
   width: 100%;
   margin: 20px auto 0;
 }
-main .abt-us {
+main .abt-us .abt-us-box {
   width: 90%;
   margin: auto;
 }
@@ -158,9 +158,11 @@ main .abt-us .abt-us-box .hidden {
   padding-bottom: 15px;
 }
 main .our-products {
+  background-color: #f9f9f3;
+}
+main .our-products .products-box {
   width: 90%;
   margin: auto;
-  background-color: #f9f9f3;
 }
 main .our-products .products-box .box-img {
   position: relative;
@@ -183,34 +185,37 @@ main .our-products .products-box .box-img .products-shadow {
   background-size: cover;
   border: solid 2px #4c6938;
   box-shadow: 0px 0px 10px #1e2012;
-  border-radius: 100px 0px 100px 0px;
+  border-radius: 0px 100px 0px 100px;
   background-color: rgba(30, 32, 18, 0.4);
 }
-main .our-products .img-product-bath-balls {
+main .our-products .products-box .img-product-bath-balls {
   background-image: url("../img/imgMobile/bath-balls-mobile.png");
 }
-main .our-products .img-product-candles {
+main .our-products .products-box .img-product-candles {
   background-image: url("../img/imgMobile/candles-mobile.png");
 }
-main .our-products .img-product-face-gel {
+main .our-products .products-box .img-product-face-cleaner {
+  background-image: url("../img/imgMobile/face-cleaner-mobile.png");
+}
+main .our-products .products-box .img-product-face-gel {
   background-image: url("../img/imgMobile/face-cleaning-mobile.png");
 }
-main .our-products .img-product-face-cream {
+main .our-products .products-box .img-product-face-cream {
   background-image: url("../img/imgMobile/face-cream-mobile.png");
 }
-main .our-products .img-product-face-masks {
+main .our-products .products-box .img-product-face-masks {
   background-image: url("../img/imgMobile/face-mask-mobile.png");
 }
-main .our-products .img-product-lip-care {
+main .our-products .products-box .img-product-lip-care {
   background-image: url("../img/imgMobile/lip-care-mobile.png");
 }
-main .our-products .img-product-makeup {
+main .our-products .products-box .img-product-makeup {
   background-image: url("../img/imgMobile/makeup-mobile.png");
 }
-main .our-products .img-product-soaps {
+main .our-products .products-box .img-product-soaps {
   background-image: url("../img/imgMobile/soap-mobile.png");
 }
-main .our-products .img-product-sun-blocker {
+main .our-products .products-box .img-product-sun-blocker {
   background-image: url("../img/imgMobile/sunblock-mobile.png");
 }
 main .contact {
