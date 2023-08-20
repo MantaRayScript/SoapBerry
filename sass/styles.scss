@@ -291,17 +291,18 @@ main {
 		}
 	}
 	.disclaimer {
+		font-family: fonts.$martian;
 		padding: 10px;
 		background-color: colors.$nearly-white;
 		.disclaimer-header {
-			font-size: 1.2rem;
+			font-size: 0.9rem;
 			text-align: center;
 			text-transform: uppercase;
 			text-decoration: underline;
 		}
 		.disclaimer-note {
 			padding-top: 10px;
-			font-size: 0.9rem;
+			font-size: 0.6rem;
 			text-align: center;
 		}
 	}

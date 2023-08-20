@@ -292,18 +292,19 @@ main .contact .social-media .SM-list li {
   list-style: none;
 }
 main .disclaimer {
+  font-family: "Martian Mono", monospace;
   padding: 10px;
   background-color: #f9f9f3;
 }
 main .disclaimer .disclaimer-header {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   text-align: center;
   text-transform: uppercase;
   text-decoration: underline;
 }
 main .disclaimer .disclaimer-note {
   padding-top: 10px;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   text-align: center;
 }
 
