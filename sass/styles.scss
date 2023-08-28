@@ -234,7 +234,7 @@ main {
 				background-image: images.$candlesMobile;
 			}
 			.img-product-face-cleaner {
-				background-image: images.$faceCleanerMobile
+				background-image: images.$faceCleanerMobile;
 			}
 			.img-product-face-gel {
 				background-image: images.$faceGelMobile;
@@ -282,10 +282,12 @@ main {
 				display: flex;
 				justify-content: space-around;
 				li {
-					font-size: 1.8rem;
-					color: colors.$nearly-white;
-					text-decoration: none;
 					list-style: none;
+					i {
+						color: colors.$nearly-white;
+						font-size: 1.8rem;
+						text-decoration: none;
+					}
 				}
 			}
 		}

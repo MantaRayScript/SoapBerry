@@ -286,10 +286,12 @@ main .contact .social-media .SM-list {
   justify-content: space-around;
 }
 main .contact .social-media .SM-list li {
-  font-size: 1.8rem;
-  color: #f9f9f3;
-  text-decoration: none;
   list-style: none;
+}
+main .contact .social-media .SM-list li i {
+  color: #f9f9f3;
+  font-size: 1.8rem;
+  text-decoration: none;
 }
 main .disclaimer {
   font-family: "Martian Mono", monospace;
