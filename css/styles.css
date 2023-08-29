@@ -160,6 +160,7 @@ main .abt-us .abt-us-box .hidden {
 main .our-products {
   padding: 15px 0px;
   background-color: #f9f9f3;
+  border-top: 1px solid rgba(30, 32, 18, 0.6);
 }
 main .our-products .products-box {
   width: 90%;
@@ -265,7 +266,8 @@ main .our-products .products-box .hidden {
   padding-bottom: 15px;
 }
 main .contact {
-  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(30, 32, 18, 0.6);
 }
 main .contact .home-address {
   font-family: "Open Sans", sans-serif;
@@ -297,6 +299,7 @@ main .disclaimer {
   font-family: "Martian Mono", monospace;
   padding: 10px;
   background-color: #f9f9f3;
+  border-top: 1px solid rgba(30, 32, 18, 0.6);
 }
 main .disclaimer .disclaimer-header {
   font-size: 0.9rem;

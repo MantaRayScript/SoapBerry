@@ -173,6 +173,7 @@ main {
 	.our-products {
 		padding: 15px 0px;
 		background-color: colors.$nearly-white;
+		border-top: 1px solid rgba(colors.$dark-green, $alpha: 0.6);
 		.products-box {
 			width: 90%;
 			margin: auto;
@@ -264,7 +265,8 @@ main {
 		}
 	}
 	.contact {
-		margin-top: 10px;
+		padding-top: 10px;
+		border-top: 1px solid rgba(colors.$dark-green, $alpha: 0.6);
 		.home-address {
 			h3 {
 				margin-bottom: 5px;
@@ -296,6 +298,7 @@ main {
 		font-family: fonts.$martian;
 		padding: 10px;
 		background-color: colors.$nearly-white;
+		border-top: 1px solid rgba(colors.$dark-green, $alpha: 0.6);
 		.disclaimer-header {
 			font-size: 0.9rem;
 			text-align: center;
